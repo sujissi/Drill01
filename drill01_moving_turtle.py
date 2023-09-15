@@ -25,9 +25,9 @@ def restart():
     
 turtle.shape('turtle')
 turtle.onkey(move_right,'d')
-turtle.onkey(move_right,'a')
-turtle.onkey(move_right,'w')
-turtle.onkey(move_right,'s')
+turtle.onkey(move_left,'a')
+turtle.onkey(move_up,'w')
+turtle.onkey(move_down,'s')
 turtle.onkey(restart,'Escape')
 
 turtle.listen()
